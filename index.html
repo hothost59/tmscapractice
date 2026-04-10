@@ -1,4 +1,3 @@
-
 <html lang="en" data-theme="default">
   <head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
     <meta charset="UTF-8" />
@@ -8,7 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Vercel Web Analytics -->
+    
     <script>
       window.va =
         window.va ||
@@ -131,7 +130,7 @@
         border-radius: 2px;
       }
 
-      /* ── AUTH ── */
+      
       #authScreen {
         display: flex;
         align-items: center;
@@ -474,12 +473,12 @@
         color: var(--green);
       }
 
-      /* ── APP SHELL ── */
+      
       #appShell {
         display: none;
       }
 
-      /* ── HEADER ── */
+      
       .header {
         position: sticky;
         top: 0;
@@ -593,12 +592,12 @@
         background: rgba(255, 255, 255, 0.35);
       }
 
-      /* theme btn removed — no theme cycling in amber design */
+      
       .theme-btn {
         display: none !important;
       }
 
-      /* ── TOP NAV ── */
+      
       .top-nav {
         display: flex;
         gap: 8px;
@@ -635,7 +634,7 @@
         border-color: var(--amber);
       }
 
-      /* ── SEARCH BAR ── */
+      
       .section-search {
         padding: 14px 14px 0;
         background: var(--amber-bg);
@@ -659,7 +658,7 @@
         border-color: var(--amber);
       }
 
-      /* ── BANNER ── */
+      
       .banner {
         padding: 8px;
         font-size: 11px;
@@ -677,7 +676,7 @@
         display: block;
       }
 
-      /* ── GRID ── */
+      
     .grid-wrap {
         padding: 4px 14px 40px;
         display: grid;
@@ -736,7 +735,7 @@
         background: var(--amber-dark);
       }
 
-      /* ── MODAL ── */
+      
       .modal-overlay {
         display: none;
         position: fixed;
@@ -818,7 +817,7 @@
         position: relative;
       }
 
-      /* ── PANE INFO ── */
+      
       #paneInfo {
         padding: 20px;
         display: flex;
@@ -903,7 +902,7 @@
         box-shadow: 0 6px 22px rgba(200, 120, 0, 0.4);
       }
 
-      /* ── DRILL PANE ── */
+      
       #paneDrill {
         background: var(--amber);
         display: none;
@@ -1069,7 +1068,7 @@
         background: rgba(255, 255, 255, 0.35);
       }
 
-      /* ── OPP BAR ── */
+      
       .opp-bar {
         width: 100%;
         max-width: 440px;
@@ -1138,7 +1137,7 @@
         color: rgba(255, 255, 255, 0.85);
       }
 
-      /* ── RESULTS ── */
+      
       #paneResults {
         background: var(--amber);
         display: none;
@@ -1299,7 +1298,7 @@
         background: var(--red);
       }
 
-      /* ── WAITING ── */
+      
       .waiting-screen {
         display: none;
         position: absolute;
@@ -1344,7 +1343,7 @@
         font-family: "JetBrains Mono", monospace;
       }
 
-      /* ── MULTIPLAYER ── */
+      
       .mp-overlay {
   display: none;
   position: fixed;
@@ -1608,7 +1607,7 @@
         border-color: var(--amber);
       }
 
-      /* ── LOBBY ── */
+      
       .mp-lobby-layout {
         display: flex;
         flex-direction: column;
@@ -1728,7 +1727,7 @@
         transform: translateY(-1px);
       }
 
-      /* ── PICK LAYOUT ── */
+      
       .mp-pick-layout {
         display: flex;
         flex: 1;
@@ -1824,7 +1823,7 @@
         margin-top: 4px;
       }
 
-      /* ── WAIT PANE ── */
+      
       .mp-wait-layout {
         display: flex;
         flex-direction: column;
@@ -1850,7 +1849,7 @@
         color: var(--text);
       }
 
-      /* ── ANSWER KEY ── */
+      
       .answer-key-box {
         align-self: center;
         width: 100%;
@@ -1895,6 +1894,25 @@
         padding-top: 8px;
       }
 
+      .answer-key-next-btn {
+        display: none;
+        margin-top: 12px;
+        width: 100%;
+        padding: 10px;
+        background: #fff;
+        color: var(--amber-dark);
+        border: none;
+        border-radius: var(--r);
+        font-family: "Outfit", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .answer-key-next-btn:hover {
+        background: var(--amber-pale);
+      }
+
       .answer-key-tries {
         display: flex;
         gap: 5px;
@@ -1911,7 +1929,7 @@
         background: var(--red);
       }
 
-      /* ── GENERAL MATH CARDS ── */
+      
       .gm-header-bar {
         padding: 14px 16px 12px;
         display: flex;
@@ -2125,7 +2143,7 @@
         transform: translateY(-1px);
       }
 
-      /* ── COMING SOON ── */
+      
       .coming-soon {
         display: flex;
         flex-direction: column;
@@ -2148,7 +2166,7 @@
         font-family: "JetBrains Mono", monospace;
       }
 
-      /* ── FOOTER ── */
+      
       .footer {
         font-size: 11px;
         color: var(--text3);
@@ -2400,7 +2418,7 @@
 
       <div class="banner" id="mainBanner">Timer starts once a bubble is pressed. Solve 5 questions as fast as you can.</div>
 
-      <!-- Number Sense section -->
+      
       <div id="nsSection">
         <div class="section-search">
           <input id="nsSearch" placeholder="🔍 Search number sense topics…" oninput="filterNS(this.value)">
@@ -2408,7 +2426,7 @@
         <div class="grid-wrap" id="topicGrid"></div>
       </div>
 
-      <!-- General Math section -->
+      
       <div id="gmSection" style="display:none;">
         <div class="gm-header-bar">
           <input class="gm-search" id="gmSearch" placeholder="🔍 Search general math topics…" oninput="filterGM(this.value)">
@@ -2417,7 +2435,7 @@
         <div class="grid-wrap" id="gmTopicGrid"></div>
       </div>
 
-      <!-- Science section -->
+      
       <div id="sciSection" style="display:none;">
         <div class="gm-header-bar">
           <input class="gm-search" id="sciSearch" placeholder="🔍 Search science topics…" oninput="filterSci(this.value)">
@@ -2478,7 +2496,7 @@
                     inputmode="decimal"
               />
                 </div>
-                <!-- Add this right after </div> that closes drill-input-row -->
+                
                 <div class="answer-key-box" id="answerKeyBox">
                   <div class="answer-key-label">
                     💡 Answer Key — after 3 attempts
@@ -2489,6 +2507,7 @@
                     class="answer-key-explanation"
                     id="answerKeyExplanation"
                   ></div>
+                  <button class="answer-key-next-btn" id="answerKeyNextBtn" onclick="advanceFromAnswerKey()">Next Question →</button>
                 </div>
                 <div class="waiting-screen" id="waitingScreen">
                   <div class="waiting-spinner"></div>
@@ -2536,7 +2555,7 @@
             </button>
           </div>
           <div class="mp-body">
-            <!-- LOBBY -->
+            
             <div class="mp-pane active" id="mpLobby">
               <div class="mp-lobby-layout">
                 <div class="mp-lobby-hero">
@@ -2577,7 +2596,7 @@
               </div>
             </div>
 
-            <!-- PICK TOPIC — fullscreen two-column -->
+            
             <div class="mp-pane" id="mpPickTopic">
               <div class="mp-pick-layout">
                 <div class="mp-pick-sidebar">
@@ -2657,7 +2676,7 @@
               </div>
             </div>
 
-            <!-- WAIT PANE -->
+            
             <div class="mp-pane" id="mpWaitPane">
               <div class="mp-wait-layout">
                 <div class="mp-wait-spinner-ring"></div>
@@ -2682,7 +2701,7 @@
      
       </div>
 
-      <!-- WAIT PANE -->
+      
       <div class="mp-pane" id="mpWaitPane">
         <div class="mp-wait-layout">
           <div class="mp-wait-spinner-ring"></div>
@@ -2700,11 +2719,11 @@
             Cancel
           </button>
         </div>
-        <!-- end mp-body -->
+        
       </div>
-      <!-- end mp-box -->
+      
     </div>
-    <!-- end mp-overlay -->
+    
 
     <footer class="footer">
       TMSCA Practice, Made for the Ereckson Middle School Math Team. Coded by:
@@ -2717,7 +2736,7 @@
           document.querySelectorAll(".nav-tab").forEach(b => b.classList.remove("active"));
           btn.classList.add("active");
 
-          // Hide ALL sections first
+          
           const ns = document.getElementById("nsSection");
           const gm = document.getElementById("gmSection");
           const sci = document.getElementById("sciSection");
@@ -2728,7 +2747,7 @@
           if (sci) sci.style.display = "none";
           if (banner) banner.style.display = "none";
 
-          // Also clear the topicGrid so old NS tiles don't bleed through
+          
           const tg = document.getElementById("topicGrid");
           if (tg) tg.innerHTML = "";
 
@@ -2762,7 +2781,7 @@
         } catch(e) { console.error(e); }
       }
 
-      // Find switchAuthTab and replace it entirely:
+      
       function switchAuthTab(tab) {
         try {
           document
@@ -2961,7 +2980,7 @@
 
         MP.myName = name;
 
-        // Show NS section by default, hide others
+        
         document.getElementById("nsSection").style.display = "";
         document.getElementById("gmSection").style.display = "none";
         document.getElementById("sciSection").style.display = "none";
@@ -3848,9 +3867,9 @@
         if (e.target === document.getElementById("modal")) closeModal();
       }
 
-      // TGM , 93 topics
+      
       const TGM = [
-        // ── NUMBER THEORY ──────────────────────────────────────────
+        
         {
           id: "gm-divisors",
           label: "Counting Positive Divisors",
@@ -4020,7 +4039,7 @@ Example , Is 1,386 divisible by 11?
             const rule = rules[ri(0, rules.length - 1)];
             const n = ri(100, 999);
             const ans = rule.check(n) ? "Yes" : "No";
-            // make sure answer is numeric , return 1 for yes, 0 for no
+            
             return {
               q: `Is ${n} divisible by ${rule.d}?\n(Enter 1 for Yes, 0 for No)`,
               a: rule.check(n) ? 1 : 0,
@@ -4093,7 +4112,7 @@ Example: i³⁰
             const n = ri(2, 30) * 2;
             const rem = n % 4;
             const a = rem === 0 ? 1 : rem === 2 ? -1 : 0;
-            // Only generate even powers so answer stays -1 or 1 (numeric)
+            
             return { q: `i^${n} = ?`, a };
           },
         },
@@ -4270,7 +4289,7 @@ Check: 20+22+24+26 = 92 ✓`,
           },
         },
 
-        // ── MONEY, RATES & WORD PROBLEMS ──────────────────────────
+        
         {
           id: "gm-coins",
           label: "Coin / Currency Problems",
@@ -4608,7 +4627,7 @@ Organize information in a table when multiple people/items are involved.`,
           },
         },
 
-        // ── ALGEBRA ───────────────────────────────────────────────
+        
         {
           id: "gm-lineareq",
           label: "Solving Multi-Step Linear Equations",
@@ -5169,7 +5188,7 @@ Strategy:
           },
         },
 
-        // ── FUNCTIONS & SEQUENCES ─────────────────────────────────
+        
         {
           id: "gm-arithterm",
           label: "Arithmetic Sequences , Nth Term",
@@ -5426,7 +5445,7 @@ From a graph: domain = left to right extent, range = bottom to top extent.`,
           },
         },
 
-        // ── GEOMETRY 2D ───────────────────────────────────────────
+        
         {
           id: "gm-intangles",
           label: "Interior Angle Sum of Polygons",
@@ -5922,7 +5941,7 @@ Properties of the centroid:
           },
         },
 
-        // ── GEOMETRY 3D ───────────────────────────────────────────
+        
         {
           id: "gm-surfacearea",
           label: "Surface Area of 3D Solids",
@@ -5987,7 +6006,7 @@ Scale factor k: volume scales by k³ (area scales by k²)`,
           },
         },
 
-        // ── COORDINATE GEOMETRY ───────────────────────────────────
+        
         {
           id: "gm-rotations",
           label: "Transformations , Rotations & Reflections",
@@ -6062,7 +6081,7 @@ For a sphere: (x−h)²+(y−k)²+(z−l)²=r²
           },
         },
 
-        // ── STATISTICS & PROBABILITY ──────────────────────────────
+        
         {
           id: "gm-meanmedian",
           label: "Mean, Median, Mode, Range",
@@ -6385,7 +6404,7 @@ Related formula: 1³+2³+...+n³ = [n(n+1)/2]² = T(n)²
           },
         },
 
-        // ── ADVANCED TOPICS ───────────────────────────────────────
+        
         {
           id: "gm-logarithms",
           label: "Logarithm Properties",
@@ -6625,10 +6644,15 @@ Example: two secants from outside, far arc=110°, near arc=40°
             .classList.toggle("show", isMultiplayer);
           document.getElementById("winnerBanner").classList.remove("show");
           document.getElementById("waitingScreen").classList.remove("show");
+          const answerKeyNextBtn = document.getElementById("answerKeyNextBtn");
+          if (answerKeyNextBtn) {
+            answerKeyNextBtn.style.display = "none";
+          }
           document.getElementById("answerKeyBox").classList.remove("show");
-document.getElementById("dInput").disabled = false;
-if (document.querySelector(".drill-submit")) document.querySelector(".drill-submit").disabled = false;
-D.wrongAttempts = 0;
+          document.getElementById("dInput").disabled = false;
+          const submitBtn = document.querySelector(".drill-submit");
+          if (submitBtn) submitBtn.disabled = false;
+          D.wrongAttempts = 0;
           showPane("paneDrill");
           document.getElementById("dCounter").textContent = `1/${DRILL_N}`;
           document.getElementById("dBigClock").textContent = "00:00.00";
@@ -6663,8 +6687,14 @@ D.wrongAttempts = 0;
           if (e.key === "Enter") submitAnswer();
         };
         inp.oninput = () => {
-          if (curTopic && curTopic.noLive) return;
-          checkLive();
+          const v = inp.value.trim();
+          const val = parseFloat(v);
+          const tol = (curTopic && curTopic.tolerance != null) ? curTopic.tolerance : 0.01;
+          if (!isNaN(val) && D.qs && D.qs[D.i] && Math.abs(val - D.qs[D.i].a) < tol) {
+            submitCorrect();
+          } else if (!(curTopic && curTopic.noLive)) {
+            checkLive();
+          }
         };
         if (D.i === 0) {
           D.startMs = performance.now();
@@ -6698,7 +6728,26 @@ D.wrongAttempts = 0;
           if (isNaN(val)) return;
           if (Math.abs(val - D.qs[D.i].a) < 0.01) submitAnswer();
         } catch (e) {
-          /* silent */
+          
+        }
+      }
+      function submitCorrect() {
+        const inp = document.getElementById("dInput");
+        const now = performance.now();
+        const q = D.qs[D.i];
+        D.answers.push({ q: q.q, ans: q.a, userAns: parseFloat(inp.value.trim()), correct: true, ms: now - D.qStartMs });
+        inp.className = "drill-input correct";
+        document.getElementById("answerKeyBox").classList.remove("show");
+        D.wrongAttempts = 0;
+        D.i++;
+        if (D.isMP) mpPushProgress(D.i);
+        if (D.i >= DRILL_N) {
+          stopDrillTimer();
+          D.totalMs = performance.now() - D.startMs;
+          if (D.isMP) mpPushFinish(D.totalMs);
+          showResults();
+        } else {
+          showDrillQ();
         }
       }
       function submitAnswer() {
@@ -6720,7 +6769,7 @@ D.wrongAttempts = 0;
             ms: now - D.qStartMs,
           });
           inp.className = "drill-input correct";
-          // hide answer key for next question
+          
           document.getElementById("answerKeyBox").classList.remove("show");
           D.wrongAttempts = 0;
           D.i++;
@@ -6738,7 +6787,7 @@ D.wrongAttempts = 0;
           inp.select();
           D.wrongAttempts = (D.wrongAttempts || 0) + 1;
 
-          // Update try dots
+          
           const triesEl = document.getElementById("answerKeyTries");
           triesEl.innerHTML =
             Array.from(
@@ -6754,7 +6803,6 @@ D.wrongAttempts = 0;
             document.getElementById("answerKeyExplanation").textContent =
               generateExplanation(q, curTopic);
             keyBox.classList.add("show");
-            // After showing answer, auto-advance after 4 seconds
             D.answers.push({
               q: q.q,
               ans: q.a,
@@ -6763,24 +6811,31 @@ D.wrongAttempts = 0;
               ms: now - D.qStartMs,
             });
             inp.disabled = true;
-            document.querySelector(".drill-submit").disabled = true;
-            setTimeout(() => {
-              document.getElementById("answerKeyBox").classList.remove("show");
-              inp.disabled = false;
-              document.querySelector(".drill-submit").disabled = false;
-              D.wrongAttempts = 0;
-              D.i++;
-              if (D.isMP) mpPushProgress(D.i);
-              if (D.i >= DRILL_N) {
-                stopDrillTimer();
-                D.totalMs = performance.now() - D.startMs;
-                if (D.isMP) mpPushFinish(D.totalMs);
-                showResults();
-              } else {
-                showDrillQ();
-              }
-            }, 4000);
+            const submitBtn = document.querySelector(".drill-submit");
+            if (submitBtn) submitBtn.disabled = true;
+            const nextBtn = document.getElementById("answerKeyNextBtn");
+            if (nextBtn) nextBtn.style.display = "block";
           }
+        }
+      }
+      function advanceFromAnswerKey() {
+        const inp = document.getElementById("dInput");
+        document.getElementById("answerKeyBox").classList.remove("show");
+        const nextBtn = document.getElementById("answerKeyNextBtn");
+        if (nextBtn) nextBtn.style.display = "none";
+        inp.disabled = false;
+        const submitBtn = document.querySelector(".drill-submit");
+        if (submitBtn) submitBtn.disabled = false;
+        D.wrongAttempts = 0;
+        D.i++;
+        if (D.isMP) mpPushProgress(D.i);
+        if (D.i >= DRILL_N) {
+          stopDrillTimer();
+          D.totalMs = performance.now() - D.startMs;
+          if (D.isMP) mpPushFinish(D.totalMs);
+          showResults();
+        } else {
+          showDrillQ();
         }
       }
       function generateExplanation(q, topic) {
@@ -6788,7 +6843,7 @@ D.wrongAttempts = 0;
         const id = topic.id || "";
         const text = q.q;
 
-        // Extract numbers from question
+        
         const nums = text.match(/-?\d+(\.\d+)?/g)?.map(Number) || [];
 
         if (id === "n11") {
@@ -6908,7 +6963,7 @@ CD=400, CM=900\nAnswer: ${q.a}`;
           return `Sorted: {${sorted.join(",")}}\nMiddle value(s): ${q.a}`;
         }
 
-        // Generic fallback using the topic rule
+        
         const ruleSnippet = topic.rule
           ? topic.rule.split("\n").slice(0, 4).join("\n")
           : "";
@@ -6930,7 +6985,7 @@ CD=400, CM=900\nAnswer: ${q.a}`;
         } else {
           banner.classList.remove("show");
         }
-        // score dots
+        
         const badge = document.getElementById("resScoreBadge");
         if (badge) {
           badge.innerHTML = D.answers
@@ -6992,7 +7047,7 @@ CD=400, CM=900\nAnswer: ${q.a}`;
         myName: "",
         oppName: "",
         listeners: [],
-        selectedTopics: [], // [{id, subject}] — persists across subject switches
+        selectedTopics: [], 
         selectedSubject: "numbersense",
       };
 
@@ -7108,7 +7163,7 @@ CD=400, CM=900\nAnswer: ${q.a}`;
       function mpSelectRandom5() {
         const pool = mpGetPool();
         const picked = [...pool].sort(() => Math.random() - 0.5).slice(0, 5);
-        // Remove existing selections for this subject, add new ones
+        
         MP.selectedTopics = MP.selectedTopics.filter(
           (x) => x.subject !== MP.selectedSubject,
         );
@@ -7179,7 +7234,7 @@ CD=400, CM=900\nAnswer: ${q.a}`;
           return;
         }
 
-        // Build list of resolved topic objects across all subjects
+        
         const resolvedTopics = MP.selectedTopics
           .map((sel) => {
             const pool = mpGetPool(sel.subject);
@@ -7359,7 +7414,7 @@ CD=400, CM=900\nAnswer: ${q.a}`;
         MP.listeners = [];
       }
       const TSCI = [
-        // ── LAB SAFETY & SCIENTIFIC METHOD ──────────────────────
+        
         {
           id: "sci-safety",
           label: "Lab Safety Rules",
@@ -7817,7 +7872,7 @@ Key temperatures:
           },
         },
 
-        // ── CELLS ──────────────────────────────────────────────────
+        
         {
           id: "sci-prokaryote",
           label: "Prokaryotic vs Eukaryotic Cells",
@@ -8335,7 +8390,7 @@ Memory trick: "HPPL" — Helicase, Primase, Polymerase, Ligase`,
           },
         },
 
-        // ── GENETICS ───────────────────────────────────────────────
+        
         {
           id: "sci-genetics",
           label: "Mendelian Genetics & Punnett Squares",
@@ -8728,7 +8783,7 @@ TRANSLATION (mRNA → Protein):
           },
         },
 
-        // ── TAXONOMY ───────────────────────────────────────────────
+        
         {
           id: "sci-taxonomy",
           label: "Classification Levels & Binomial Nomenclature",
@@ -8907,7 +8962,7 @@ Canidae = dog/wolf family`,
           },
         },
 
-        // ── ECOLOGY ────────────────────────────────────────────────
+        
         {
           id: "sci-trophic",
           label: "Trophic Levels & Energy Flow",
@@ -9313,7 +9368,7 @@ Nonpoint source pollution: runoff from large area (farm fields, roads, lawns)`,
           },
         },
 
-        // ── PLANTS ─────────────────────────────────────────────────
+        
         {
           id: "sci-photosynthesis",
           label: "Photosynthesis",
@@ -9567,7 +9622,7 @@ Result: ovule → seed; ovary → fruit`,
           },
         },
 
-        // ── HUMAN BODY ─────────────────────────────────────────────
+        
         {
           id: "sci-heart",
           label: "Circulatory System & Heart",
@@ -10063,7 +10118,7 @@ Endocrine system (uses hormones; slower than nervous):
           },
         },
 
-        // ── ANIMAL ADAPTATIONS ─────────────────────────────────────
+        
         {
           id: "sci-endoecto",
           label: "Endotherms vs Ectotherms & Metamorphosis",
@@ -10253,7 +10308,7 @@ Leucism: partial loss of pigmentation (white but normal eyes)`,
           },
         },
 
-        // ── CHEMISTRY ──────────────────────────────────────────────
+        
         {
           id: "sci-atoms",
           label: "Atomic Structure",
@@ -10651,7 +10706,7 @@ Organic compounds: carbon-based molecules`,
           },
         },
 
-        // ── PHYSICS ────────────────────────────────────────────────
+        
         {
           id: "sci-newton",
           label: "Newton's Laws of Motion",
@@ -11166,7 +11221,7 @@ Calorimeter: device to measure heat transfer and specific heat capacity`,
           },
         },
 
-        // ── EARTH SCIENCE ──────────────────────────────────────────
+        
         {
           id: "sci-rocks",
           label: "Rock Types & Mohs Scale",
@@ -11711,7 +11766,7 @@ Natural disasters:
           },
         },
 
-        // ── SPACE ──────────────────────────────────────────────────
+        
         {
           id: "sci-solarsystem",
           label: "Solar System & Planets",
@@ -12152,7 +12207,7 @@ Seasons: caused by Earth's AXIAL TILT and REVOLUTION`,
           },
         },
 
-        // ── SCIENTISTS & SCIENCE HISTORY ───────────────────────────
+        
         {
           id: "sci-scientists",
           label: "Famous Scientists",
@@ -12258,7 +12313,7 @@ Seasons: caused by Earth's AXIAL TILT and REVOLUTION`,
           },
         },
 
-        // ── VOCABULARY & PREFIXES ──────────────────────────────────
+        
         {
           id: "sci-vocab",
           label: "Science Vocabulary & Prefixes",
@@ -12349,7 +12404,7 @@ Fields of science (specialist names):
           },
         },
 
-        // ── ENERGY SOURCES & ENVIRONMENT ───────────────────────────
+        
         {
           id: "sci-energy2",
           label: "Energy Sources & Environmental Science",
@@ -12480,14 +12535,14 @@ Strip mining effects: removes topsoil, destroys habitat, causes stream siltation
 
       let sciActiveCat = "all";
 
-      // Multiple-choice generator helper
+      
       function mcGen(qs) {
         const q = qs[ri(0, qs.length - 1)];
         if (q.numeric) return { q: q.q, a: q.a };
-        // Return as multiple choice , encode answer index
+        
         return {
           q: q.q + "\n\n" + q.opts.map((o, i) => `${i + 1}) ${o}`).join("\n"),
-          a: q.a + 1, // answer is 1-indexed for user to type
+          a: q.a + 1, 
         };
       }
 
@@ -12555,7 +12610,7 @@ Strip mining effects: removes topsoil, destroys habitat, causes stream siltation
       function openSciTopic(id) {
         const t = TSCI.find((x) => x.id === id);
         if (!t) return;
-        // Wrap for drill compatibility: noLive = true (multiple choice)
+        
         curTopic = Object.assign({}, t, { noLive: true });
         openTopic(curTopic);
       }
